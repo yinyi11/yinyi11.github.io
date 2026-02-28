@@ -45,6 +45,8 @@ Fire is a major driver of carbon emissions and ecosystem change. We study fire-c
 - Land surface modeling
 - Machine learning for ecological forecasting
 
+## Resources
+
 ## Join Us
 
 Prospective students and postdocs interested in these research areas are encouraged to [reach out](join).

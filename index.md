@@ -2,9 +2,9 @@ list: sidebar
 uid: a48746ca
 ---
 
-# Global Ecology Lab @ NYU
+# Yin Lab @ NYU
 
-:::hero ./assets/earth.jpg
+:::hero ./assets/header.png
 :::
 
 We study interactions between terrestrial ecosystems, the atmosphere, and human activity—with a focus on extreme events like heatwaves, droughts, wildfires, and floods. Our goal: actionable insights for equitable climate mitigation and adaptation.

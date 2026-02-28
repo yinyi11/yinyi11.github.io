@@ -1,6 +1,8 @@
 /* moss Design System — Shared Design Tokens */
 
 :root {
+  color-scheme: light dark;
+
   /* Color System - Warm, paper-inspired */
   --moss-text-primary: #2c2825;
   --moss-text-secondary: #5d5853;
@@ -12,6 +14,15 @@
   --moss-accent-light: rgba(45, 90, 45, 0.15);
   --moss-border-light: #e6e2db;
   --moss-border-medium: #d1cdc4;
+
+  /* Interaction overlays */
+  --moss-hover-overlay: rgba(0, 0, 0, 0.06);
+  --moss-active-overlay: rgba(0, 0, 0, 0.10);
+
+  /* Status backgrounds (subtle tints for badges/pills) */
+  --moss-success-subtle: rgba(16, 185, 129, 0.1);
+  --moss-warning-subtle: rgba(245, 158, 11, 0.1);
+  --moss-error-subtle: rgba(200, 84, 80, 0.1);
 }
 
 /* Dark mode - explicit toggle */
@@ -26,6 +37,11 @@
   --moss-accent: #4a7c4a;
   --moss-accent-hover: #5a8c5a;
   --moss-accent-light: rgba(74, 124, 74, 0.2);
+  --moss-hover-overlay: rgba(255, 255, 255, 0.08);
+  --moss-active-overlay: rgba(255, 255, 255, 0.14);
+  --moss-success-subtle: rgba(16, 185, 129, 0.15);
+  --moss-warning-subtle: rgba(245, 158, 11, 0.15);
+  --moss-error-subtle: rgba(200, 84, 80, 0.15);
 }
 
 /* Dark mode - system preference (when no explicit theme set) */
@@ -41,6 +57,11 @@
     --moss-accent: #4a7c4a;
     --moss-accent-hover: #5a8c5a;
     --moss-accent-light: rgba(74, 124, 74, 0.2);
+    --moss-hover-overlay: rgba(255, 255, 255, 0.08);
+    --moss-active-overlay: rgba(255, 255, 255, 0.14);
+    --moss-success-subtle: rgba(16, 185, 129, 0.15);
+    --moss-warning-subtle: rgba(245, 158, 11, 0.15);
+    --moss-error-subtle: rgba(200, 84, 80, 0.15);
   }
 }
 /* moss Design System — Shared Component Primitives */
@@ -437,7 +458,7 @@ footer.container {
   padding-bottom: var(--moss-space-2xl);
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  align-items: baseline;
 }
 
 .footer-description {
@@ -455,17 +476,6 @@ footer.container {
 .footer-link:hover {
   color: var(--moss-accent);
   text-decoration-color: var(--moss-accent);
-}
-
-/* Email subscribe form injected by email plugin enhance hook */
-.footer-subscribe-form {
-  display: flex;
-  gap: var(--moss-space-sm);
-  align-items: flex-end;
-}
-
-.footer-subscribe-form .moss-input {
-  flex: 1;
 }
 
 /* ==========================================================================
@@ -1115,12 +1125,32 @@ tr:last-child td {
   border-bottom: none;
 }
 
-/* Horizontal Rule */
+/* Horizontal Rule — three-dot content divider (Matters Town style) */
 hr {
+  position: relative;
+  display: block;
+  width: 100%;
+  height: 0.5rem;
   border: none;
-  height: 1px;
-  background: var(--moss-border-light);
+  background: none;
   margin: var(--moss-space-2xl) 0;
+}
+
+hr::before {
+  position: absolute;
+  inset: 0;
+  display: block;
+  width: 3.5rem;
+  height: 0.5rem;
+  margin: 0 auto;
+  content: '';
+  background-image: radial-gradient(
+    circle,
+    var(--moss-border-light) 0.25rem,
+    transparent 0.25rem
+  );
+  background-size: 33.33% 100%;
+  background-repeat-x: repeat;
 }
 
 /* ==========================================================================
@@ -1435,6 +1465,8 @@ article a:focus {
   height: 100%;
   object-fit: cover;
   object-position: center;
+  margin: 0;
+  border-radius: 0;
 }
 
 .collection-card-no-cover {
