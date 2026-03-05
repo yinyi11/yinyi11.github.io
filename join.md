@@ -37,16 +37,16 @@ Funded positions will be posted here when available. I'm also happy to collabora
 - [Burroughs Wellcome Fund Postdoctoral Diversity Enrichment Program](https://www.bwfund.org/)
 - [NIFA/AFRI Postdoctoral Fellowship](https://www.nifa.usda.gov/grants/programs/agriculture-food-research-initiative-afri/afri-education-workforce-development) (March)
 - [Human Frontier Science Program Fellowship](https://www.hfsp.org/funding/hfsp-funding/postdoctoral-fellowships) (May)
-<!-- - [David H. Smith Conservation Research Fellowship](https://www.smithfellows.org/) (September) -->
-<!-- - [NSF Postdoctoral Research Fellowships in Biology](https://www.nsf.gov/funding/opportunities/prfb-postdoctoral-research-fellowships-biology) (September) -->
 - [Simons Junior Fellowship](https://www.simonsfoundation.org/simons-society-of-fellows/nominations/) (September; by nomination)
 - [Schmidt Science Fellowship](https://schmidtsciencefellows.org/) (May; by nomination)
-<!-- - [Life Sciences Research Foundation Fellowship](https://lsrf.org/apply/) (October) -->
-<!-- - [Canada Postdoctoral Research Award (NSERC)](https://nserc-crsng.canada.ca/en/funding-opportunity/canada-postdoctoral-research-award-program) (October) -->
-<!-- - [Black Rock Forest Postdoctoral Fellowship](https://www.blackrockforest.org/black-rock-forest-postdoctoral-fellowship-program) (November) -->
 - [Simons Postdoctoral Fellowship in Plant Biology](https://www.simonsfoundation.org/grant/simons-postdoctoral-fellowships-in-plant-biology/) (December)
 - [Fulbright Visiting Scholar Program](https://fulbrightscholars.org/non-us-scholars/fulbright-visiting-scholar-program) (varies by country)
 
+<!-- - [David H. Smith Conservation Research Fellowship](https://www.smithfellows.org/) (September) -->
+<!-- - [NSF Postdoctoral Research Fellowships in Biology](https://www.nsf.gov/funding/opportunities/prfb-postdoctoral-research-fellowships-biology) (September) -->
+<!-- - [Life Sciences Research Foundation Fellowship](https://lsrf.org/apply/) (October) -->
+<!-- - [Canada Postdoctoral Research Award (NSERC)](https://nserc-crsng.canada.ca/en/funding-opportunity/canada-postdoctoral-research-award-program) (October) -->
+<!-- - [Black Rock Forest Postdoctoral Fellowship](https://www.blackrockforest.org/black-rock-forest-postdoctoral-fellowship-program) (November) -->
 ## Undergraduate Research
 
 I welcome NYU undergraduates interested in gaining research experience. Opportunities range from assisting with ongoing projects to developing independent research, depending on your interests and availability. I have advised students doing research under the support of [NYU Deans Undergraduate Research Fund](https://cas.nyu.edu/undergraduate-research/deans-undergraduate-research-fund.html). The deadline for Spring 2026 application is March 25th.
