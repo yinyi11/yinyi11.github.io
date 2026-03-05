@@ -4,7 +4,7 @@ uid: 5a94cc93
 
 # People
 
-:::grid 2 | 1:2
+:::grid 2 | 2:2
 ![](./assets/Yi_olympic.jpg)
 :::
 **Yi Yin**
