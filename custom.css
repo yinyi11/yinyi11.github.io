@@ -1,0 +1,28 @@
+/* moss style overrides
+   Uncomment any variable to override the default.
+   Changes apply site-wide. */
+
+:root {
+  /* Typography */
+  /* --moss-font-body: system-ui, sans-serif; */
+  /* --moss-font-heading: var(--moss-font-body);  */
+  /* --moss-font-mono: ui-monospace, monospace;   */
+  /* --moss-font-size: 1.125rem;                  */
+  /* --moss-font-weight: 320;                     */
+
+  /* Layout */
+  --moss-content-width: 80ch;        
+  /* --moss-content-width-sidebar: 65ch;    */
+  /* --moss-sidebar-width: 280px;           */
+
+  /* Color */
+  /* --moss-color-accent:   #2d5a2d; */
+  /* --moss-color-bg:       #faf8f5; */
+  /* --moss-color-text:     #2c2825; */
+  /* --moss-color-muted:    #8a8580; */
+  /* --moss-color-surface:  #f4f1ec; */
+}
+
+article {
+    text-align: justify;   
+}
