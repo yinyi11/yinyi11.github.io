@@ -1,4 +1,5 @@
-list: sidebar
+children: false
+sidebar: "[[news]]"
 uid: a48746ca
 ---
 
